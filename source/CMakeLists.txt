@@ -5,3 +5,9 @@ target_link_libraries(hello_fmt PRIVATE fmt::fmt)
 
 add_executable(day01 day01.cpp)
 target_link_libraries(day01 PRIVATE fmt::fmt)
+
+add_executable(day02_s1 day02_s1.cpp)
+target_link_libraries(day02_s1 PRIVATE fmt::fmt)
+
+add_executable(day02_s2 day02_s2.cpp)
+target_link_libraries(day02_s2 PRIVATE fmt::fmt)
