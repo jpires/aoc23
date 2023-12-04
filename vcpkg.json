@@ -3,6 +3,9 @@
   "dependencies": [
     {
       "name": "fmt"
+    },
+    {
+      "name": "mdspan"
     }
   ],
   "name": "aoc23",

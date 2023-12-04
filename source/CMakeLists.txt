@@ -11,3 +11,9 @@ target_link_libraries(day02_s1 PRIVATE fmt::fmt)
 
 add_executable(day02_s2 day02_s2.cpp)
 target_link_libraries(day02_s2 PRIVATE fmt::fmt)
+
+add_executable(day03_s1 day03_s1.cpp)
+target_link_libraries(day03_s1 PRIVATE fmt::fmt std::mdspan)
+
+add_executable(day03_s2 day03_s2.cpp)
+target_link_libraries(day03_s2 PRIVATE fmt::fmt std::mdspan)

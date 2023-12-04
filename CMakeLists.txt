@@ -4,5 +4,6 @@ project(aoc2023 CXX)
 set(CMAKE_CXX_STANDARD 23)
 
 find_package(fmt CONFIG REQUIRED)
+find_package(mdspan CONFIG REQUIRED)
 
 add_subdirectory(source)
