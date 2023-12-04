@@ -3,7 +3,7 @@ FROM gcc:13.2-bookworm
 RUN addgroup --gid 501 app && \
     adduser --uid 501 --gid 20 --gecos "" --disabled-password app
 
-RUN apt update && apt install -y cmake ninja-build zip
+RUN apt update && apt install -y cmake ninja-build zip gdb
 
 USER app
 
